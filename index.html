@@ -13,15 +13,17 @@
     ECO CHAT
 </div>
 <div class="container animate__animated animate__fadeIn">
-    <h1>Seja bem-vindo!</h1>
+    <h1>Seja bem vindo!</h1>
     <p>Clique no botão abaixo para abrir o chat e tirar suas dúvidas sobre sustentabilidade.</p>
     <button id="openChatButton">Abrir Chat</button>
 </div>
 
-<div id="chatContainer" class="chat-container animate__animated animate__fadeIn" style="display: none;">
+<div id="chatContainer" class="chat-container">
     <div id="chatMessages" class="chat-messages"></div>
-    <input type="text" id="chatInput" placeholder="Digite sua mensagem...">
-    <button id="sendButton">Enviar</button>
+    <div class="chat-input">
+        <input id="chatInput" type="text" placeholder="Digite sua mensagem...">
+        <button id="sendButton">Enviar</button>
+    </div>
 </div>
 
 <script src="script.js"></script>
